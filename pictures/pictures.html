@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pictures</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale =1, user-scalable=0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!--Styles -->
+<link href="../css/bootstrap.css" rel="stylesheet">
+<link href="../css/bootstrap-responsivetwo.css" rel="stylesheet">
+<link href="../css/docs.css" rel="stylesheet">
+<link href="../css/pictures.css" rel="stylesheet">
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="../js/html5shiv.js"></script>
+    <![endif]-->
+
+<!-- Fav and touch icons -->
+
+<link rel="shortcut icon" href="../ico/favicon.png">
+</head>
+<div id="superwrapper">
+
+<body>
+
+<!-- NAVBAR
+    ================================================== -->
+<div class="navbar-wrapper">
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="brand" href="../index.html"> &nbsp; &nbsp; PSHL</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li><a href="../index.html">Home</a></li>
+            <li ><a href="../people/people.html">People</a></li>
+            <li><a href="../projects/projects.html">Projects</a></li>
+            <li><a href="../classes/classes.html">Classes</a></li>
+            <li><a href="../resources/resources.html">Resources</a></li>
+            <li class = 'active'><a href="#">Pictures</a></li>
+            <li><a href="../funding/funding.html">Funding</a></li>
+            <li><a href="../events/events.html">Events</a></li>
+            <li><a href="../contacts/contacts.html">Contacts</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse --> 
+      </div>
+      <!-- /.navbar-inner --> 
+    </div>
+    <!-- /.navbar --> 
+  </div>
+  <!-- /.navbar-fixed-top --> 
+</div>
+<!-- /.navbar-wrapper --> 
+
+<!--Header
+    ================================================== -->
+
+<header class="jumbotron subhead hidden-phone" id="overview">
+  <div class="container-fluid" id = lettering>
+    <h1>Pictures</h1>
+  </div>
+  <!--/Container--> 
+</header>
+<!-- /Header--> 
+
+<br>
+<br>
+<br>
+<div class="alert alert-success visible-desktop">
+  <button type="button" href="#" class="close" data-dismiss="alert">&times;</button>
+  "Courage is the discovery you may not win, and trying when you know you can loose" -Tom Krause </div>
+<div class="container-fluid">
+  <section class="visible-phone">
+    <div class="page-header">
+      <h1>Pictures</h1>
+    </div>
+  </section>
+  <section id="C1">
+    <div class="page-header">
+      <h1>Our Lab, Our People, and Our Surroundings</h1>
+      <h2 class=muted style="color=#F00"> Take a look.</h2>
+    </div>
+  </section>
+  <!--/section1--> 
+  
+</div>
+<!--/container--> 
+
+<!--xml picture plugin-->
+
+<div id="picwrapper"> </div>
+<!--/picwrapper--> 
+
+<!--/xml picture plugin--> 
+
+<!-- FOOTER -->
+<footer>
+  <p class="pull-right"><a href="#">Back to top</a></p>
+  <p>&copy; 2013 Psychobiology of Stress &amp; Health Lab &middot; Gallery Grid &copy; FWD</p>
+</footer>
+
+<!-- /FOOTER --> 
+
+<!-- JS
+    ================================================== --> 
+<script src="../js/jquery.js"></script> 
+<script src="../js/bootstrap-button.js"></script> 
+<script src="../js/bootstrap-collapse.js"></script> 
+<script src="../js/bootstrap-affix.js"></script> 
+<script src="../js/holder/holder.js"></script> 
+<script src="../js/bootstrap-alert.js"></script> 
+<script type="text/javascript" src="./java/FWDGallery.js"></script> 
+<script type="text/javascript">
+	
+$(document).ready(function() {
+	var instance= new FWDGallery("picwrapper", "load/config.xml",false, "#000000", "#FFFFFF", "#000000");
+    
+});
+
+</script>
+</body>
+</div>
+<!--/superwrapper-->
+</html>

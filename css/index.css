@@ -1,0 +1,366 @@
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+
+
+ body {
+	padding-bottom: 50px;
+	color: #5a5a5a;
+	text-align:center;
+    }
+	
+	#superwrapper {
+	margin: 0 auto;
+	max-width: 1280px; 
+	text-align:left;
+}
+
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+
+	.navbar-wrapper{
+			margin-right:0px;
+			margin-bottom: 20x;
+		}
+
+	
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px;
+	   /* Increase vertical padding to match navbar links */
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+	  
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+	
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+	
+
+
+
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+		padding-top: 48px;
+	margin-bottom: 25px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height:600px;
+    }
+	
+	
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 600px;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 500px;
+    }
+	
+	.carousel-caption#fourslide {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 433px;
+    }
+	
+	.carousel-caption#thirdslide {
+      margin-top: 497px;
+    }
+	
+	.carousel-caption#fiveslide {
+		
+		margin-top: 497px;
+		
+	}
+	
+	.carousel-caption#secslide {
+	background-color: transparent;
+	position: static;
+	max-width: 550px;
+	margin-top: 475px;
+	padding-top: 0;
+	padding-right: 20px;
+	padding-bottom: 0;
+	padding-left: 20px;
+    }
+	
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+	  background-color: #0099FF;
+    }
+	
+
+    /* Center align the text within the three columns below the carousel */
+	.row-fluid {
+		padding-top: 20px;
+	}
+    .span4 {
+      text-align: center;
+    }
+     h2 {
+      font-weight: bold;
+    }
+    .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+	.btn{
+		color: #0099FF;
+		
+	}
+	
+	 #firstslide{
+	height: 600px;
+	margin-top: -200px;
+    }
+	
+
+	 #thirdslide{
+	margin-top:470px;
+    }
+	
+	/*The Styling for the Recent News container*/
+	
+		.separator {
+		height:1px;
+		
+background-image: linear-gradient(left bottom, rgb(46,46,46) 36%, rgb(97,97,97) 61%, rgb(168,168,168) 98%);
+background-image: -o-linear-gradient(left bottom, rgb(46,46,46) 36%, rgb(97,97,97) 61%, rgb(168,168,168) 98%);
+background-image: -moz-linear-gradient(left bottom, rgb(46,46,46) 36%, rgb(97,97,97) 61%, rgb(168,168,168) 98%);
+background-image: -webkit-linear-gradient(left bottom, rgb(46,46,46) 36%, rgb(97,97,97) 61%, rgb(168,168,168) 98%);
+background-image: -ms-linear-gradient(left bottom, rgb(46,46,46) 36%, rgb(97,97,97) 61%, rgb(168,168,168) 98%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	right top,
+	color-stop(0.36, rgb(46,46,46)),
+	color-stop(0.61, rgb(97,97,97)),
+	color-stop(0.98, rgb(168,168,168))
+);
+	
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+		
+		/* here I can modify what things look like on mobile */
+		.navbar{
+			
+			margin-right:0px;
+			margin-bottom:-5px;
+		}
+		 .carousel {
+			 padding-top:0px;
+        margin-left: -10px;
+        margin-right: -20px;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+	   footer{
+		  padding-top: 85px;
+	  }
+	  
+	   .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 390px;
+    }
+	
+	   .carousel-caption#fourslide {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 280px;
+		margin-left: -52px;
+      }
+	  .carousel-caption#secslide {
+		   width: 65%;
+        padding: 0 70px;
+        margin-top: 294px;
+		margin-left: -43px;
+    
+    }
+	
+
+	
+    }
+
+
+    @media (max-width: 767px) {
+		
+		/* here I can modify what things look like on mobile */
+		
+.navbar-wrapper{
+			margin-right:-20px;
+			padding-bottom:0;
+			margin-bottom:20;
+			
+		}
+
+      .carousel {
+		  
+		  padding-top:0px;
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 310px;
+      }
+	  
+	  /* APPLICABLE TO ALL CAROUSEL CAPTIONS*/
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 215px;
+		margin-left: -60px;
+      }
+	   .carousel-caption h1 {
+        font-size: 14px;
+      }
+	
+	/*  APPLICABLE TO THE FIRST SLIDE; it is only an image */
+	
+	#firstslide {
+	width: 100%;
+	height:auto;
+	padding-top: 50px;
+	margin-top:10px;
+	margin-bottom: 30px;
+	
+	}
+	
+	
+	/*  APPLICABLE TO THE SECOND SLIDE  */
+	  .carousel-caption#secslide {
+		   width: 45%;
+        padding: 0 70px;
+        margin-top: 180px;
+		margin-left: -60px;
+    }
+	
+	#secslide > h1 {
+		font-size: 14px;
+		max-width: 45%;
+	}
+	
+	
+	
+	
+	/* APPLICABLE TO THE THIRD SLIDE ONLY*/
+	  .carousel-caption#thirdslide {
+		   width: 65%;
+        padding: 0 70px;
+        margin-top: 210px;
+		margin-left: -60px;
+    
+    }
+	
+	#thirdslide > h1 {
+		font-size: 14px;
+		max-width: 45%;
+		
+	}
+	
+			/*  APPLICABLE TO THE FOURTH SLIDE */
+	    .carousel-caption#fourslide {
+        width: 55%;
+        padding: 0 70px;
+        margin-top: 188px;
+		margin-left: -60px;
+      }
+	  
+	  .carousel-caption#fiveslide{
+		  
+		margin-top: 230px;  
+	  }
+
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 14px;
+      }
+		.row-fluid {
+		padding-top: 150px;
+	}
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+	  
+	  footer{
+		  padding-top: 50px;
+	  }
+	  
+	  .span4{
+		  padding-bottom: 20px;
+	  }
+	  
+    }

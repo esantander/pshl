@@ -1,0 +1,227 @@
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+
+    body {
+	padding-bottom: 50px;
+	color: #5a5a5a;
+	text-align:center;
+    }
+	
+	#superwrapper {
+	margin: 0 auto;
+	max-width: 1280px; 
+
+	}
+
+
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+	
+
+ .navbar .brand:hover {
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
+}
+
+	.navbar-wrapper{
+			margin-right:0px;
+			margin-bottom: 20x;
+		}
+
+	
+    .navbar .navbar-inner {
+      border: 0;
+    }
+
+    .navbar .brand {
+      padding: 14px 20px 16px;
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);  
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .1s linear;
+     -moz-transition: all .1s linear;
+          transition: all .1s linear;
+	  
+    }
+
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+	
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+	
+	   /* CUSTOMIZE THE HEADER
+    -------------------------------------------------- */
+	
+	.jumbotron{
+		margin-top:-80px;
+		height: 50px;
+		background-color:red;
+		text-align:center;
+		
+		
+	}
+	
+	.jumbotron h1{
+		color:#FFF;
+		font-size:180px;
+		text-shadow: 0 1px 1px rgba(0,0,0,.4);
+	}
+	
+	.jumbotron p{
+		color:#FFF
+	}
+		  #lettering{
+		  margin-top:-100px;
+		  text-align:center;
+    }
+	#lettering h1{
+		font-size:170px;
+	}
+
+		
+		    /* Customize the sidebar
+    -------------------------------------------------- */
+	
+	
+	.span9{
+		margin-left:50px;
+
+	}
+
+	    /* Customize the Pictures Wrapper
+    -------------------------------------------------- */
+	
+	.pic img{
+		width:auto;
+		max-width: 300px;
+		height: auto;
+		margin-right: 10px;
+		margin-left:10px;
+		text-align:center;
+	}
+	#pic2 img{
+		width:auto;
+		max-width: 600px;
+		height: auto;
+		margin-right: 10px;
+		margin-left:10px;
+		text-align:center;
+		
+	}
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+		
+		.navbar{
+			
+			margin-right:0px;
+			margin-bottom:-5px;
+		}
+		.navbar .btn{
+			margin-top: 6px;}
+
+	   footer{
+		  padding-top: 85px;
+	  }
+	  #lettering{
+		  margin-top:-100px;
+		  text-align:center;
+		  margin-left:33px;
+    }
+	#lettering h1{
+		font-size:120px;
+		margin-left:-67px;
+	}
+
+	.span9{
+		text-align:left;
+		margin-left: 45px;
+	}
+		.jumbotron{
+		margin-top:0px;
+		}
+		
+		#tabnavibar{
+		text-align:center;
+		margin-left:-60px;
+		color: #0099FF;
+		}
+		
+		 .container {
+		margin-left:auto;
+		
+
+    }
+		#superwrapper {
+	margin: 0 auto;
+	max-width: 768px; 
+	
+}
+
+	
+	}
+		
+
+    @media (max-width: 767px) {
+		
+	
+	
+	
+.navbar-wrapper{
+			margin-right:0px;
+			padding-bottom:0;
+			margin-bottom:20;
+}
+		.navbar .btn{
+			margin-top: 13px;}
+	  
+	  .span9{
+		  margin-right:0px;
+		  margin-left:5px;
+		  max-width:310px;
+	  }
+	  
+	  .pic > img{
+		  
+		 margin-left: -20px;
+		  
+	  }
+	  
+	  .span9 h1{
+		  font-size: 20px;
+	  }
+	  
+	  .span9 h2 {
+		  font-size: 16px;
+	  }
+	  
+	  .span9 h3 {
+		  font-size: 14px;
+	  }
+	  
+	  .span9 h4{
+		  font-size: 12px;
+	  }
+	  
+	  #coinvestigator h3{
+		 font-size: 14px;
+	  }
+		  
+	
+	 #body {
+	margin-right: 0;
+	max-width: 480px !important; 
+	
+}
+
+
+
+	 
+	}

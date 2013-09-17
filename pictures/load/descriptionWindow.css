@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------- DARK THEME CSS -------------------- */
+.darkheaderDesc{
+	font-family:Arial, Helvetica, sans-serif !important;
+	color:#000000 !important;
+	font-size:13px !important;
+	font-weight:bold !important;
+}
+
+.darkimageDesc{
+	font-family:Arial, Helvetica, sans-serif !important;
+	line-height:20px !important;
+	color:#CCCCCC !important;
+	font-size:13px !important;
+	font-weight:100 !important;
+	background-color:rgba(0, 0, 0, 0) !important;
+}
+
+.darkpWithBottomMargins{
+	margin:0 !important;
+	padding:0 !important;
+	margin-bottom:10px !important;
+}
+
+.darkpWithNoMargins{
+	margin:0 !important;
+	padding:0 !important;
+}
+
+.darkimageDesc a:link{
+	text-decoration:underline !important;
+	color:#0099FF !important;	
+}
+
+.darkimageDesc a:visited{
+	text-decoration:underline !important;
+	color:#0099FF !important;	
+}
+
+.darkimageDesc a:hover{
+	text-decoration:underline !important;
+	color:#FFFFFF !important;	
+}
+
+.darkwhiteAndBold{
+	color:#FFFFFF !important;
+	font-size:16px !important;
+	font-weight:bold !important;
+}
+
+.darkwhiteAndBoldSmall{
+	color:#FFFFFF !important;
+	font-size:12px !important;
+	font-weight:bold !important;
+}
+
+.darkgalleryTitleBalckTheme{
+	display:inline-block !important;
+	color:#000000 !important;
+	padding-left:5px !important;
+	padding-right:5px !important;
+	background-color:#CCCCCC !important;
+}
+
+/* ----------------- WHITE THEME CSS -------------------- */
+.whiteheaderDesc{
+	font-family:Arial, Helvetica, sans-serif !important;
+	color:#FFFFFF !important;
+	font-size:13px !important;
+	font-weight:bold !important;
+}
+
+.whiteimageDesc{
+	font-family:Arial, Helvetica, sans-serif !important;
+	line-height:20px !important;
+	color:#222222 !important;
+	font-size:13px !important;
+	font-weight:100 !important;
+	background-color:rgba(0, 0, 0, 0) !important;
+}
+
+.whitepWithBottomMargins{
+	margin:0 !important;
+	padding:0 !important;
+	margin-bottom:10px !important;
+}
+
+.whitepWithNoMargins{
+	margin:0 !important;
+	padding:0 !important;
+}
+
+.whiteimageDesc a:link{
+	text-decoration:underline !important;
+	color:#0099FF !important;	
+}
+
+.whiteimageDesc a:visited{
+	text-decoration:underline !important;
+	color:#0099FF !important;	
+}
+
+.whiteimageDesc a:hover{
+	text-decoration:underline !important;
+	color:#FF0000 !important;	
+}
+
+.whiteblackAndBold{
+	color:#FFFFFF !important;
+	font-size:16px !important;
+	font-weight:bold !important;
+}
+
+.whiteblackAndBoldSmall{
+	color:#000000 !important;
+	font-size:12px !important;
+	font-weight:bold !important;
+}
+
+.whitegalleryTitleBalckTheme{
+	display:inline-block !important;
+	color:#000000 !important;
+	padding-left:5px !important;
+	padding-right:5px !important;
+	background-color:#CCCCCC !important;
+}

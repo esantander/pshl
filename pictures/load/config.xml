@@ -1,0 +1,918 @@
+<?xml version='1.0' encoding='UTF-8'?>
+ 
+<settings>
+  	
+	<!-- General settings -->
+	<background_color>#000000</background_color>
+	<show_context_menu>yes</show_context_menu>
+    
+	<!-- Fullscreen button settings -->
+	<show_full_screen_button>yes</show_full_screen_button>
+	<fullscreen_button_icon_normal_normal_state>load/skin_black/fullScreenButtonIconNormalNormalState.png</fullscreen_button_icon_normal_normal_state>
+	<fullscreen_button_icon_normal_selected_state>load/skin_black/fullScreenButtonIconNormalSelectedState.png</fullscreen_button_icon_normal_selected_state>
+	<fullscreen_button_icon_full_normal_state>load/skin_black/fullScreenButtonIconFullNormalState.png</fullscreen_button_icon_full_normal_state>
+	<fullscreen_button_icon_full_selected_state>load/skin_black/fullScreenButtonIconFullSelectedState.png</fullscreen_button_icon_full_selected_state>
+
+	<!-- Scrollbar button settings -->
+	<scrollbar_icon_normal_state>load/skin_black/scrollBarNormalState.png</scrollbar_icon_normal_state>
+	<scrollbar_icon_selected_state>load/skin_black/scrollBarSelectedState.png</scrollbar_icon_selected_state>
+	
+	<!-- Info button settings -->
+	<show_info_button>yes</show_info_button>
+	<gallery_info_button_icon_normal_state>load/skin_black/infoButtonNormalState.png</gallery_info_button_icon_normal_state>  
+	<gallery_info_button_icon_selected_state>load/skin_black/infoButtonSelectedState.png</gallery_info_button_icon_selected_state> 
+	
+	<!-- Zoom button settings -->
+	<show_zoom_button>no</show_zoom_button>
+	<gallery_zoom_out_button_icon_normal_state>load/skin_black/maximizeButtonNormalState.png</gallery_zoom_out_button_icon_normal_state>  
+	<gallery_zoom_out_button_icon_selected_state>load/skin_black/maximizeButtonSelectedState.png</gallery_zoom_out_button_icon_selected_state>
+	<gallery_zoom_in_button_icon_normal_state>load/skin_black/minimizeButtonNormalState.png</gallery_zoom_in_button_icon_normal_state>  
+	<gallery_zoom_in_button_icon_selected_state>load/skin_black/minimizeButtonSelectedState.png</gallery_zoom_in_button_icon_selected_state>  
+	
+	<!-- Slideshow button settings -->
+	<show_slideshow_button>yes</show_slideshow_button>
+	<slideshow_delay>5</slideshow_delay>
+	<slideshow_auto_play>no</slideshow_auto_play>
+	<gallery_play_button_icon_normal_state>load/skin_black/playButtonNormalState.png</gallery_play_button_icon_normal_state>  
+	<gallery_play_button_icon_selected_state>load/skin_black/playButtonSelectedState.png</gallery_play_button_icon_selected_state> 
+	<gallery_pause_button_icon_normal_state>load/skin_black/pauseButtonNormalState.png</gallery_pause_button_icon_normal_state>  
+	<gallery_pause_button_icon_selected_state>load/skin_black/pauseButtonSelectedState.png</gallery_pause_button_icon_selected_state> 
+	
+	<!-- Preloaders settings -->
+	<slideshow_preloader_radius>8</slideshow_preloader_radius>
+	<slideshow_preloader_thinckness>3</slideshow_preloader_thinckness>
+	<slideshow_preloader_background_color>#FFFFFF</slideshow_preloader_background_color>
+	<slideshow_preloader_fill_color>#000000</slideshow_preloader_fill_color>
+	
+	<!-- Help screens settings -->
+	<show_help_screen>no</show_help_screen>
+	<help_screen_close_button_normal_state>load/skin_black/galleryCloseButtonNormalState.png</help_screen_close_button_normal_state>
+	<help_screen_close_button_selected_state>load/skin_black/galleryCloseButtonSelectedState.png</help_screen_close_button_selected_state>
+	<help_screen_for_image_pc>load/skin_black/imagePcHelpScreen.png</help_screen_for_image_pc>
+	<help_screen_for_image_mobile>load/skin_black/imageMobileHelpScreen.png</help_screen_for_image_mobile>
+	
+	<!-- image description window -->
+	<description_scrollbar_up_button_normal_state>load/skin_black/scrollBarUpNormalState.png</description_scrollbar_up_button_normal_state>
+	<description_scrollbar_up_button_selected_state>load/skin_black/scrollBarUpSelectedState.png</description_scrollbar_up_button_selected_state>
+	<description_scrollbar_down_button_normal_state>load/skin_black/scrollBarDownNormalState.png</description_scrollbar_down_button_normal_state>
+	<description_scrollbar_down_button_selected_state>load/skin_black/scrollBarDownSelectedState.png</description_scrollbar_down_button_selected_state>
+	<description_scrollbar_handler_button_normal_state>load/skin_black/scrollHandlerNormalState.png</description_scrollbar_handler_button_normal_state>
+	<description_scrollbar_handler_button_selected_state>load/skin_black/scrollHandlerSelectedState.png</description_scrollbar_handler_button_selected_state>
+	<description_scrollbar_track>load/skin_black/scrollBarTrack.png</description_scrollbar_track>
+	<description_close_button_icon_normal_state>load/skin_black/galleryCloseButtonNormalState.png</description_close_button_icon_normal_state>
+	<description_close_button_icon_selected_state>load/skin_black/galleryCloseButtonSelectedState.png</description_close_button_icon_selected_state>
+	<description_header_background_color>#FFFFFF</description_header_background_color>
+	<description_main_text_background_color>#000000</description_main_text_background_color>
+	<description_main_text_background_opacity>.9</description_main_text_background_opacity>
+	
+	<!-- thumbs and gallery settings -->
+	<thumb_border_size>1</thumb_border_size>
+	<thumb_border_radius>0</thumb_border_radius>
+	<thumbs_start_x>10</thumbs_start_x>
+	<thumbs_start_y>20</thumbs_start_y>
+	<space_between_thumbs_horizontal>10</space_between_thumbs_horizontal>
+	<space_between_thumbs_vertical>10</space_between_thumbs_vertical>
+  	<thumb_border_normal_color>#595959</thumb_border_normal_color>
+  	<thumb_border_selected_color>#FFFFFF</thumb_border_selected_color>
+	
+	<big_image_border_size>1</big_image_border_size>
+	<big_image_border_radius>0</big_image_border_radius>
+	<big_image_border_color>#595959</big_image_border_color>
+	<big_image_offest_size>48</big_image_offest_size>
+	
+	<gallery_close_button_icon_normal_state>load/skin_black/galleryCloseButtonNormalState.png</gallery_close_button_icon_normal_state>  
+	<gallery_close_button_icon_selected_state>load/skin_black/galleryCloseButtonSelectedState.png</gallery_close_button_icon_selected_state>  
+	
+	<next_button_icon_normal_state>load/skin_black/nextIconNormalState.png</next_button_icon_normal_state>  
+	<next_button_icon_selected_state>load/skin_black/nextIconSelectedState.png</next_button_icon_selected_state>  
+	<prev_button_icon_normal_state>load/skin_black/prevIconNormalState.png</prev_button_icon_normal_state>  
+	<prev_button_icon_selected_state>load/skin_black/prevIconSelectedState.png</prev_button_icon_selected_state>  
+	
+	<image>
+		<thumb_path>load/thumbs/1.jpg</thumb_path>
+		<big_image_path>load/images/1.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/1.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">Frozen Samples</div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">Dr. Azar is visible here handling a tray of saliva samples. These are kept in a secure lab inside a -40 degree freezer.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<thumb_path>load/thumbs/2.jpg</thumb_path>
+		<big_image_path>load/images/2.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/2.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">Discovery in a Stunning Setting</div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">The Psychobiology of Stress and Health Lab is located at Mount Allison University. Apart from being the country's #1 rated primarily-undergraduate university, Mount Allison is also frequently lauded for its beautiful campus.</p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/3.jpg</thumb_path>
+		<big_image_path>load/images/3.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/3.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">Azar at Quebec Conference </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">Conferences are excellent ways to stay up-to-date on the latest findings in a fast-changing field. Here Dr. Azar is visible at a conference in Quebec City. </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/4.jpg</thumb_path>
+		<big_image_path>load/images/4.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/4.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">Undergraduate Research at the Top</div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">At Mount Allison, undergraduate students take front stage with high-quality research activities. Students formulate, execute, and communicate their findings supervised by professors. Capable and creative students emerge from the rigorous process of discovery.</p></div>]]></text>
+		</image>
+		
+			<image>
+		<thumb_path>load/thumbs/18.jpg</thumb_path>
+		<big_image_path>load/images/18.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/18.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">Undergraduate Research at the Top</div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">At Mount Allison, undergraduate students take front stage with high-quality research activities. Students formulate, execute, and communicate their findings supervised by professors. Capable and creative students emerge from the rigorous process of discovery.</p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/5.jpg</thumb_path>
+		<big_image_path>load/images/5.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/5.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">Undergraduate Research at the Top</div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">At Mount Allison, undergraduate students take front stage with high-quality research activities. Students formulate, execute, and communicate their findings supervised by professors. Capable and creative students emerge from the rigorous process of discovery.</p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/6.jpg</thumb_path>
+		<big_image_path>load/images/6.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/6.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">Cafe Scientifique</div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">Mount Allison University / the Psychobiology of Stress and Health Lab and the residents of Sackville enjoy a special relationship, being one in the same. PSHL enjoys hosting informative events for the residents to further understand stress and inflammation, such as the recent Cafe Scientifique. This was an open-to-all panel event featuring Drs. Karl Looper (left) and Edouard Kouassi (right) conversing about the prevention of stress sequelae.<p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/7.jpg</thumb_path>
+		<big_image_path>load/images/7.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/7.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">Hospitals as Research Centers </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">The PSHL is fortunate to have many local partners in recruitment of volunteers for research projects. In their capacity as centers for prenatal care, institutions like the Dr. Georges L. Dumont Regional Hospital (pictured) assist in the identification of potential volunteers for stress research with mothers and newborns.</p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/8.jpg</thumb_path>
+		<big_image_path>load/images/8.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/8.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">2012-2013 Lab Members</div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">From left: Mo Santander, Julie Lewis, Rima Azar, and Robert Calder. </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/9.jpg</thumb_path>
+		<big_image_path>load/images/9.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/9.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">Discovery in a Stunning Setting</div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">The Psychobiology of Stress and Health Lab is located at Mount Allison University. Apart from being the country's #1 rated primarily-undergraduate university, Mount Allison is also frequently lauded for its beautiful campus.</p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/10.jpg</thumb_path>
+		<big_image_path>load/images/10.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/10.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">Undergraduate Research at the Top</div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">At Mount Allison, undergraduate students take front stage with high-quality research activities. Students formulate, execute, and communicate their findings supervised by professors. Capable and creative students emerge from the rigorous process of discovery.</p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/11.jpg</thumb_path>
+		<big_image_path>load/images/11.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/11.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">Undergraduate Research at the Top</div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">At Mount Allison, undergraduate students take front stage with high-quality research activities. Students formulate, execute, and communicate their findings supervised by professors. Capable and creative students emerge from the rigorous process of discovery. <br> <br> Pictured: Adrian Gee</p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/12.jpg</thumb_path>
+		<big_image_path>load/images/12.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/12.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">Cafe Scientifique and Friends of the Lab</div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">Mount Allison University / the Psychobiology of Stress and Health Lab and the residents of Sackville enjoy a special relationship, being one in the same. PSHL enjoys hosting informative events for the residents to further understand stress and inflammation, such as the recent Cafe Scientifique. This was an open-to-all panel event featuring Drs. Karl Looper (center) and Edouard Kouassi (left) conversing about the prevention of stress sequelae.<p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/13.jpg</thumb_path>
+		<big_image_path>load/images/13.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/13.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">Undergraduate Research at the Top</div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">At Mount Allison, undergraduate students take front stage with high-quality research activities. Students formulate, execute, and communicate their findings supervised by professors. Capable and creative students emerge from the rigorous process of discovery. <br> <br> Pictured: Mo Santander </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/14.jpg</thumb_path>
+		<big_image_path>load/images/14.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/14.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">Cafe Scientifique</div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">Mount Allison University / the Psychobiology of Stress and Health Lab and the residents of Sackville enjoy a special relationship, being one in the same. PSHL enjoys hosting informative events for the residents to further understand stress and inflammation, such as the recent Cafe Scientifique. This was an open-to-all panel event featuring Drs. Karl Looper and Edouard Kouassi conversing to a captivated audience (pictured) about the prevention of stress sequelae.<p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/15.jpg</thumb_path>
+		<big_image_path>load/images/15.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/15.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">PSHL Headquarters </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">PSHL's main home features two biomedical freezers that maintain temperatures between 30 and 40 below zero celsius. These refrigeration units work hard to keep the inside cool, while providing the lab with an exotic 29 degree climate. </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/16.jpg</thumb_path>
+		<big_image_path>load/images/16.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/16.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">Graduation Celebration</div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> Students and friends of the lab wrap up a productive academic year. <br><br> Pictured (from left): E. Clayton, R. Calder, R. Azar, J. Lewis </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/17.jpg</thumb_path>
+		<big_image_path>load/images/17.png</big_image_path>
+		<mobile_image_path>load/images_mobile/17.png</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc">Sackville's Natural Beauty</div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins">
+		</p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/1.jpg</thumb_path>
+		<big_image_path>load/images/1.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/1.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/2.jpg</thumb_path>
+		<big_image_path>load/images/2.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/2.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/3.jpg</thumb_path>
+		<big_image_path>load/images/3.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/3.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/4.jpg</thumb_path>
+		<big_image_path>load/images/4.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/4.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/5.jpg</thumb_path>
+		<big_image_path>load/images/5.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/5.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/6.jpg</thumb_path>
+		<big_image_path>load/images/6.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/6.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/7.jpg</thumb_path>
+		<big_image_path>load/images/7.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/7.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/8.jpg</thumb_path>
+		<big_image_path>load/images/8.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/8.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/9.jpg</thumb_path>
+		<big_image_path>load/images/9.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/9.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/10.jpg</thumb_path>
+		<big_image_path>load/images/10.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/10.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/11.jpg</thumb_path>
+		<big_image_path>load/images/11.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/11.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/12.jpg</thumb_path>
+		<big_image_path>load/images/12.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/12.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/13.jpg</thumb_path>
+		<big_image_path>load/images/13.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/13.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/14.jpg</thumb_path>
+		<big_image_path>load/images/14.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/14.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/15.jpg</thumb_path>
+		<big_image_path>load/images/15.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/15.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/16.jpg</thumb_path>
+		<big_image_path>load/images/16.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/16.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/17.jpg</thumb_path>
+		<big_image_path>load/images/17.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/17.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/1.jpg</thumb_path>
+		<big_image_path>load/images/1.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/1.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/2.jpg</thumb_path>
+		<big_image_path>load/images/2.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/2.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/3.jpg</thumb_path>
+		<big_image_path>load/images/3.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/3.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/4.jpg</thumb_path>
+		<big_image_path>load/images/4.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/4.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/5.jpg</thumb_path>
+		<big_image_path>load/images/5.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/5.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/6.jpg</thumb_path>
+		<big_image_path>load/images/6.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/6.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/7.jpg</thumb_path>
+		<big_image_path>load/images/7.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/7.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/8.jpg</thumb_path>
+		<big_image_path>load/images/8.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/8.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/9.jpg</thumb_path>
+		<big_image_path>load/images/9.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/9.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/10.jpg</thumb_path>
+		<big_image_path>load/images/10.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/10.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/11.jpg</thumb_path>
+		<big_image_path>load/images/11.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/11.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/12.jpg</thumb_path>
+		<big_image_path>load/images/12.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/12.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/13.jpg</thumb_path>
+		<big_image_path>load/images/13.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/13.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/14.jpg</thumb_path>
+		<big_image_path>load/images/14.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/14.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/15.jpg</thumb_path>
+		<big_image_path>load/images/15.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/15.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/16.jpg</thumb_path>
+		<big_image_path>load/images/16.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/16.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/17.jpg</thumb_path>
+		<big_image_path>load/images/17.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/17.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/1.jpg</thumb_path>
+		<big_image_path>load/images/1.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/1.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/2.jpg</thumb_path>
+		<big_image_path>load/images/2.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/2.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/3.jpg</thumb_path>
+		<big_image_path>load/images/3.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/3.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/4.jpg</thumb_path>
+		<big_image_path>load/images/4.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/4.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/5.jpg</thumb_path>
+		<big_image_path>load/images/5.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/5.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/6.jpg</thumb_path>
+		<big_image_path>load/images/6.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/6.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/7.jpg</thumb_path>
+		<big_image_path>load/images/7.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/7.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/8.jpg</thumb_path>
+		<big_image_path>load/images/8.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/8.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/9.jpg</thumb_path>
+		<big_image_path>load/images/9.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/9.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/10.jpg</thumb_path>
+		<big_image_path>load/images/10.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/10.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/11.jpg</thumb_path>
+		<big_image_path>load/images/11.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/11.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/12.jpg</thumb_path>
+		<big_image_path>load/images/12.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/12.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/13.jpg</thumb_path>
+		<big_image_path>load/images/13.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/13.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/14.jpg</thumb_path>
+		<big_image_path>load/images/14.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/14.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/15.jpg</thumb_path>
+		<big_image_path>load/images/15.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/15.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/16.jpg</thumb_path>
+		<big_image_path>load/images/16.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/16.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/17.jpg</thumb_path>
+		<big_image_path>load/images/17.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/17.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/1.jpg</thumb_path>
+		<big_image_path>load/images/1.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/1.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/2.jpg</thumb_path>
+		<big_image_path>load/images/2.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/2.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/3.jpg</thumb_path>
+		<big_image_path>load/images/3.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/3.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/4.jpg</thumb_path>
+		<big_image_path>load/images/4.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/4.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/5.jpg</thumb_path>
+		<big_image_path>load/images/5.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/5.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/6.jpg</thumb_path>
+		<big_image_path>load/images/6.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/6.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/7.jpg</thumb_path>
+		<big_image_path>load/images/7.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/7.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/8.jpg</thumb_path>
+		<big_image_path>load/images/8.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/8.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/9.jpg</thumb_path>
+		<big_image_path>load/images/9.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/9.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/10.jpg</thumb_path>
+		<big_image_path>load/images/10.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/10.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/11.jpg</thumb_path>
+		<big_image_path>load/images/11.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/11.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/12.jpg</thumb_path>
+		<big_image_path>load/images/12.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/12.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/13.jpg</thumb_path>
+		<big_image_path>load/images/13.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/13.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/14.jpg</thumb_path>
+		<big_image_path>load/images/14.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/14.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/15.jpg</thumb_path>
+		<big_image_path>load/images/15.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/15.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/16.jpg</thumb_path>
+		<big_image_path>load/images/16.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/16.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/17.jpg</thumb_path>
+		<big_image_path>load/images/17.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/17.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/1.jpg</thumb_path>
+		<big_image_path>load/images/1.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/1.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/2.jpg</thumb_path>
+		<big_image_path>load/images/2.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/2.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/3.jpg</thumb_path>
+		<big_image_path>load/images/3.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/3.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/4.jpg</thumb_path>
+		<big_image_path>load/images/4.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/4.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/5.jpg</thumb_path>
+		<big_image_path>load/images/5.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/5.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/6.jpg</thumb_path>
+		<big_image_path>load/images/6.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/6.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/7.jpg</thumb_path>
+		<big_image_path>load/images/7.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/7.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/8.jpg</thumb_path>
+		<big_image_path>load/images/8.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/8.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/9.jpg</thumb_path>
+		<big_image_path>load/images/9.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/9.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/10.jpg</thumb_path>
+		<big_image_path>load/images/10.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/10.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/11.jpg</thumb_path>
+		<big_image_path>load/images/11.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/11.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/12.jpg</thumb_path>
+		<big_image_path>load/images/12.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/12.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/13.jpg</thumb_path>
+		<big_image_path>load/images/13.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/13.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/14.jpg</thumb_path>
+		<big_image_path>load/images/14.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/14.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/15.jpg</thumb_path>
+		<big_image_path>load/images/15.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/15.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/16.jpg</thumb_path>
+		<big_image_path>load/images/16.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/16.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	<image>
+		<thumb_path>load/thumbs/17.jpg</thumb_path>
+		<big_image_path>load/images/17.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/17.jpg</mobile_image_path>
+		<header_text><![CDATA[<div class="darkheaderDesc"> </div>]]></header_text>
+		<text><![CDATA[<div class="darkimageDesc"><p class="darkpWithBottomMargins"> </p></div>]]></text>
+		</image>
+	
+	
+</settings>
+
